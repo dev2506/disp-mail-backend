@@ -1,0 +1,25 @@
+{
+  "name": "disp-mail-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start:local": "npx tsc && NODE_ENV=local node dist/app.js",
+    "start:dev": "npx tsc && NODE_ENV=dev node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^16.18.101",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.3"
+  }
+}
